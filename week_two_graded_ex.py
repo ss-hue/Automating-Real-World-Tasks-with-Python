@@ -29,7 +29,7 @@ def parse_files():
     except:
       print('There was an error while opening the file!')
 
-  
+  file.close()  
 
  
 parse_files()
