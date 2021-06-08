@@ -34,7 +34,7 @@ def parse_files():
         dct['description'] = ''.join(text[2:]).rstrip()
         dct['image_name'] = re.sub('(?=\.).*', '.jpeg', d)
       
-      response = requests.post('http://35.192.207.125/fruits/', json=dct)
+      response = requests.post('http://<IP address>/fruits/', json=dct)
       print(response.status_code)
  
     except:
