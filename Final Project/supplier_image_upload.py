@@ -16,7 +16,7 @@ path_imgs = pwd + '/supplier-data/images/'
 #Returns a list containing a list of all the entries in the directory given by path.
 dirs = os.listdir(path_imgs)
 
-url = 'http://35.192.207.125/upload/'
+url = 'http://<IP Address>/upload/'
 
 
 for d in dirs:
