@@ -24,7 +24,7 @@ def rpt_email():
               
         text = file.readlines()
 
-        rpt.append('name: {}<br/>weight: {}\n'.format(text[0].rstrip('\n'), text[1].rstrip('\n')))
+        rpt.append('name: {}<br/><br/>weight: {}\n'.format(text[0].rstrip('\n'), text[1].rstrip('\n')))
  
     except:
       print('There was an error while opening the file!')
